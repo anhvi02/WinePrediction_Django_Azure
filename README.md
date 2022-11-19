@@ -14,5 +14,6 @@ Data source: https://www.kaggle.com/datasets/uciml/red-wine-quality-cortez-et-al
 - Azure Web Services
 
 -- How to access? -- 
+https://winequalitypred.azurewebsites.net/
 
 -- Author -- ViPham 
