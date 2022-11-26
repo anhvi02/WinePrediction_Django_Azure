@@ -31,7 +31,7 @@ def result(request):
     # for col in cols:
     #     render_cols.append(col.capitalize())
     # inputs = zip(render_cols, predict_val)
-    print(context)
-
+    # print(context)
 
     return render(request, 'predict/result.html',context=context)
+
