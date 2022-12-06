@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'winequalitypred'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A91E55638AEF40C5A36530945D097EE4 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_18151EBCE75D4AA88921067C34BB29A0 }}
