@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-k7am))d2i#!ka0vf_!^pr-hqa*6io$usj6lw&zks0316l0l3&t
 # SECURITY WARNING: Don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['orange-dune-0ad5ffd00.4.azurestaticapps.net']
+ALLOWED_HOSTS = ['wineprediction.azurewebsites.net']
 
 
 # Application definition
