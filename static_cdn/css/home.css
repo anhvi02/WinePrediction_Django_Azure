@@ -1,0 +1,114 @@
+
+.section {
+	position: relative;
+	height: 100vh;
+}
+
+.section .section-center {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+/* MODEL NAME */
+.intro h1 {
+	font-size: 55px;
+	text-transform: uppercase;
+	color: white;
+	font-weight:900;
+	font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif}
+/* INTRO */
+.intro p {
+	font-size: 22px;
+	color: #d6d6d6;
+}
+.input-form {
+	position: relative;
+	text-align: center;
+	background: rgb(255, 255, 255,70%); 
+	max-width: 642px;
+	width: 100%;
+	margin: auto;
+	padding: 20px 25px 25px;
+	border-radius: 4px;
+	-webkit-box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+	box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+}
+
+#recommend{font-size: 18px;
+	font-weight: 600;
+	font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+	color: black;
+}
+
+.input-form .form-group {
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.input-form .form-control {
+	background-color: #fff;
+	height: 65px;
+	padding: 0px 15px;
+	padding-top: 24px;
+	color: #191a1e;
+	border: 2px solid #dfe5e9;
+	font-size: 16px;
+	font-weight: 700;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border-radius: 4px;
+	-webkit-transition: 0.2s all;
+	transition: 0.2s all;
+}
+
+/* PLACE HOLDER */
+.input-form .form-control::placeholder {
+	color: rgb(205,92,92,85%);
+	font-size: 14px;
+}
+
+
+/* BOX LABEL */
+.input-form .form-label {
+	position: absolute;
+	top: 6px;
+	left: 14px;
+	font-weight: 600;
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	text-transform: uppercase;
+	line-height: 23px;
+	height: 23px;
+	font-size: 12px;
+	color: #000000;
+}
+
+/* SUBMIT BUTTON */
+.input-form .submit-btn {
+	color: #fff;
+	background-color: #000000;
+	font-weight: 900;
+	height: 65px;
+	font-size: 19px;
+	font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	border: none;
+	width: 100%;
+	border-radius: 10px;
+	text-transform: uppercase;
+	cursor:pointer
+}
+
+/* SPACE BETWEEN MODEL NAME AND FORM BOX */
+.intro {
+	margin-top: 0px;
+}
+
+/* DISABLE NUMBER ARROW */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

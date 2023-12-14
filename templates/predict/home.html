@@ -16,9 +16,9 @@
 						<div class="row">
 							<h1 class="col-sm-12">Wine Quality Prediction Model</h1>
 							<p class="col-sm-12">
-								A machine learning model that applies Logistic Regression algorithm in predicting 
-								the quality of wine based on wine composition deployed with Django
-								<br> <b> - developed by Vĩ Phạm</b>
+								A model for predicting the quality of wine based on its components. 
+								The algorithm is implemented on a web app using Django and hosted on Azure.
+								<br> <b> - developed by Anh Vi Pham</b>
 							</p>	
 						</div>
 
@@ -28,7 +28,7 @@
 				<!-- FORM -->
 				<div class="col-md-8 col-auto">
 					<div class="input-form">
-						<h1 class="col-md-12" id="recommend">INPUT SHOULD BE IN RECOMMMENDED VALUE RANGE</h1>
+						<h1 class="col-md-12" id="recommend">INPUT VALUE SHOULD BE IN RECOMMMENDED RANGE</h1>
 						{% csrf_token %}
 						<!-- FORM -->
 						<form action="{% url 'result' %}">
